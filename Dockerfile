@@ -3,16 +3,15 @@ FROM jupyter/scipy-notebook
 # install build utilities 
 RUN pip install joblib
 
-#install tensorflow cvlib
-RUN pip install opencv-python tensorflow
-RUN pip install cvlib
-
 # check our python environment
 RUN python3 --version
 RUN pip3 --version
 
+# install Flask
+RUN pip install Flask
+
 # set the working directory for containers
-WORKDIR /usr/src/writing_quality
+WORKDIR /usr/src/workdir/
 
 # Expose a port for web application
 EXPOSE 5000
