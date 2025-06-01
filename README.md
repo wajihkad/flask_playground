@@ -1,7 +1,7 @@
 # flask_playground
 This is a repository to create a simple Web Application with Flask.
 
-The code is from the **RealPython** Blog  [**Build a Scalable Flask Web Project From Scratch, by Philipp Acsany **](https://realpython.com/flask-project/)
+The code is from the **RealPython** Blog  [Build a Scalable Flask Web Project From Scratch, by Philipp Acsany](https://realpython.com/flask-project/)
 
 # Environnement
 You can build a Docker Image, using the following command:
